@@ -1,0 +1,116 @@
+<!-- copyrighted content owned by Android Arena (www.androidarena.co.in)-->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#9357b4"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:weightSum="1">
+
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="480dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+            android:background="@drawable/greybackground">
+
+            <ImageView android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:background="@drawable/secure"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/imageButton" />
+
+            <TextView android:layout_width="114dp"
+                android:layout_height="30dp"
+
+
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:text="Name"
+                android:textSize="20dp"
+                android:id="@+id/tv1" />
+            <TextView android:layout_width="114dp"
+                android:layout_height="30dp"
+
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:text="Phone No"
+                android:textSize="20dp"
+                android:id="@+id/tv2" />
+            <TextView android:layout_width="114dp"
+                android:layout_height="30dp"
+
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:text="Reg.Id"
+                android:id="@+id/tv3"
+                android:textSize="20dp"/>
+
+
+            <ImageButton android:layout_width="100dp"
+                android:layout_height="96dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="60dp"
+                android:textColor="#fff"
+                android:background="@drawable/trackbtn"
+                android:id="@+id/imageButton1"
+                android:onClick="addListenerOnButton"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="view"
+                android:id="@+id/button22"
+                android:onClick="showNum"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="125dp"
+            android:orientation="vertical"
+
+            android:layout_marginTop="-375dp"
+            android:layout_marginLeft="140dp"
+            >
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="30dp"
+                android:id="@+id/Texttt1"
+                android:textSize="20dp"
+                android:background="#f3f3f3"/>
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="30dp"
+                android:id="@+id/Texttt2"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:background="#f3f3f3"/>
+
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="30dp"
+                android:id="@+id/Texttt3"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:background="#f3f3f3"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,141 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#9357b4"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="495dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        android:background="@drawable/greybackground"
+        >
+
+        <ImageView android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:background="@drawable/secure"
+            android:layout_marginTop="1dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/sec" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:id="@+id/editText"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:capitalize="sentences"
+            android:hint="First Name"
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:hint="Email Id"
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/editText3"
+            android:hint="Mobile Number"
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="15dp"/>
+
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/radioGroup"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="15dp">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:id="@+id/radioButton"
+                android:checked="true" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:id="@+id/radioButton2"
+                android:layout_gravity="right"
+                android:checked="false" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7"
+                android:layout_above="@+id/editText4"
+                android:layout_marginLeft="170dp"
+                android:layout_alignStart="@+id/button2" />
+
+        </RadioGroup>
+
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:id="@+id/editText4"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789- /.,#()"
+            android:hint="Postal Address"
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/editText5"
+            android:hint="DD-MM-YYYY"
+            android:digits="0123456789-"
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="38dp"
+            android:text="Sign Up"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn"
+            android:textColor="#fff"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
