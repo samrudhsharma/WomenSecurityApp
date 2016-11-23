@@ -58,9 +58,9 @@ public class MainActivityCont extends Activity {
 
                 } else {
                     //           sendData();
-                    MapAct();
-                    //Intent intent = new Intent(MainActivityCont.this, MainPage.class);
-                    //startActivity(intent);
+                   // MapAct();
+                    Intent intent = new Intent(MainActivityCont.this, MainPage.class);
+                    startActivity(intent);
 
                 }
             }
@@ -175,14 +175,14 @@ public class MainActivityCont extends Activity {
         }
     }
 
-    public void MapAct(){
+   /*public void MapAct(){
         intent=new Intent(MainActivityCont.this,MapsActivity.class);
         intent.putExtra("n1",cNumber1);
         intent.putExtra("n2",cNumber2);
         intent.putExtra("n3",cNumber3);
         startActivity(intent);
 
-    }
+    }*/
 
     /*public void sendData(){
         Intent i=new Intent();
